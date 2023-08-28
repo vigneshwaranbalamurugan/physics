@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style link="stylesheet" href="style.css">
+</style>
+</head>
+<body>
+<center><h3 class="uppercase-text font-weight-bold">torsional pendulum</h3></center>
+<div class="container container-fluid cont-center">
+<div class=" table table-responsive-sm table-responsive-md" >
+<table id="myTable" border="4" cellpadding="2" cellspacing="3">
+<thead class="bg-info">
+<td>S.No</td>
+<td>Length of the suspended wire*10<sup>-2</sup>(m)</td>
+<td>Time Trial-I(S)</td>
+<td>Time Trial-I(S)</td>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><input type="number" step="0.01" class="no-border"id="l1"></td>
+<td><input type="number" step="0.01" class="no-border" id="T1"></td>
+<td><input type="number" step="0.01" class="no-border" id="t1"></td>
+</tr>
+<tr>
+<td>2</td>
+<td><input type="number" step="0.01" class="no-border " id="l2"></td>
+<td><input type="number" step="0.01" class="no-border" id="T2"></td>
+<td><input type="number" step="0.01" class="no-border" id="t2"></td>
+</tr>
+<tr>
+<td>3</td>
+<td><input type="number" step="0.01" class="no-border"id="l3"></td>
+<td><input type="number" step="0.01" class="no-border" id="T3"></td>
+<td><input type="number" step="0.01" class="no-border" id="t3"></td>
+</tr>
+<tr>
+<td>4</td>
+<td><input type="number" step="0.01" class="no-border " id="l4"></td>
+<td><input type="number" step="0.01" class="no-border" id="T4"></td>
+<td><input type="number" step="0.01" class="no-border" id="t4"></td>
+</tr>
+<tr>
+<td>5</td>
+<td><input type="number" step="0.01" class="no-border " id="l5"></td>
+<td><input type="number" step="0.01" class="no-border" id="T5"></td>
+<td><input type="number" step="0.01" class="no-border" id="t5"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="hide" class="container container-fluid cont-center">
+<h5 class="font-weight-bold">Enter the number of oscilations</h5>
+<input type="number" class="form-control form-control-md" id="osci">
+<h5 class="font-weight-bold">Enter Radius of disc</h5>
+<input type="number" class="form-control form-control-md" id="R" step="0.01">
+ <span class="non-editable"><b>*10<sup>-2</sup>(m)</b></span>
+<h5 class="font-weight-bold" >Enter Radius of wire</h5>
+<input type="number" class="form-control form-control-md" id="r" step="0.01">
+<span class="non-editable"><b>*10<sup>-3</sup>(m)</b></span>
+<h5 class="font-weight-bold" >Enter Mass of the disc</h5>
+<input type="number" class="form-control form-control-md" id="Mass" step="0.01">
+<span class="non-editable"><b>*10<sup>-3</sup>(m)</b></span>
+<br>
+<button onclick="fun()" class="btn btn-md btn-primary">calculate</button>
+<br>
+</h5>&#169;Developed by VIGNESHWARAN B</h5>
+</div>
+<div  class="container container-fluid cont-center font-weight-bold">
+<p id="output"></p><br>
+<p id="result"></p><br>
+</div>
+<br>
+<script src="script.js">
+  </script>
+</body>
+</html>
