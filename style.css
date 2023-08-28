@@ -1,0 +1,23 @@
+.no-border {
+  border: none;
+  outline: none; 
+  padding: 5px; 
+  background-color: transparent;
+}
+
+.cont-center{
+ display: grid;
+  align-items: center; 
+justify-content:center;
+}
+  .non-editable {
+    position:relative;
+	bottom:24px;
+    left: 136px;
+    color:black;
+    font-size: 12px;
+    pointer-events: none;
+  }
+ .uppercase-text {
+    text-transform: uppercase;
+  }
