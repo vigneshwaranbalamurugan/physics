@@ -27,5 +27,7 @@ Upon entering the required details, the webpage will display the following calcu
 - Ensure accurate measurements and inputs for precise calculations.
 - Any NaN (Not a Number) values may occur due to incorrect or missing data.
   
+ ## **Screenshots**
+<img src="./Screenshots/Experiment.png" alt="Experiment" /> 
+
 ---
-Any feedback or enhancements to this project are highly appreciated!
